@@ -1,4 +1,4 @@
 Swift-Motion
 ============
 
-Using motion sensor on Swift
+Using iOS motion sensor on Swift
