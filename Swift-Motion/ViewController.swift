@@ -12,19 +12,19 @@ import CoreMotion
 class ViewController: UIViewController {
     
     // Connection with interface builder
-    @IBOutlet var acc_x: UILabel
-    @IBOutlet var acc_y: UILabel
-    @IBOutlet var acc_z: UILabel
-    @IBOutlet var gyro_x: UILabel
-    @IBOutlet var gyro_y: UILabel
-    @IBOutlet var gyro_z: UILabel
-    @IBOutlet var attitude_roll: UILabel
-    @IBOutlet var attitude_pitch: UILabel
-    @IBOutlet var attitude_yaw: UILabel
-    @IBOutlet var attitude_x: UILabel
-    @IBOutlet var attitude_y: UILabel
-    @IBOutlet var attitude_z: UILabel
-    @IBOutlet var attitude_w: UILabel
+    @IBOutlet var acc_x: UILabel!
+    @IBOutlet var acc_y: UILabel!
+    @IBOutlet var acc_z: UILabel!
+    @IBOutlet var gyro_x: UILabel!
+    @IBOutlet var gyro_y: UILabel!
+    @IBOutlet var gyro_z: UILabel!
+    @IBOutlet var attitude_roll: UILabel!
+    @IBOutlet var attitude_pitch: UILabel!
+    @IBOutlet var attitude_yaw: UILabel!
+    @IBOutlet var attitude_x: UILabel!
+    @IBOutlet var attitude_y: UILabel!
+    @IBOutlet var attitude_z: UILabel!
+    @IBOutlet var attitude_w: UILabel!
 
     // create instance of MotionManager
     let motionManager: CMMotionManager = CMMotionManager()
